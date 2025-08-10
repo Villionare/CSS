@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liquid Glass Icons</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-x: hidden; /* avoid horizontal scrollbar */
+      }
+
+      .bg-img {
+        position: fixed; /* fixed to viewport */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        background-image: url("./img.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: 100%;
+        filter: blur(10px);
+        z-index: -1;
+        height: 100vh;
+      }
+
+      .content {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 40px;
+      }
+
+      .icon-container {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 10px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+          inset 0 1px 0 rgba(255, 255, 255, 0.5),
+          inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        color: white;
+        font-size: 40px;
+      }
+
+      .icon-container:hover {
+        transform: translateY(-5px) scale(1.1);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15),
+          inset 0 1px 0 rgba(255, 255, 255, 0.6),
+          inset 0 -1px 0 rgba(255, 255, 255, 0.3);
+      }
+
+      .icon-container:active {
+        transform: translateY(0) scale(1.05);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+          inset 0 1px 0 rgba(255, 255, 255, 0.4),
+          inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+      }
+
+      .icon-container .fa-solid {
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-img"></div>
+    <div class="content">
+      <div class="body">
+        <div class="icon-container">
+          <i class="fa-solid fa-cloud"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-camera-retro"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-cloud"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-camera-retro"></i>
+        </div>
+      </div>
+      <div class="body">
+        <div class="icon-container">
+          <i class="fa-solid fa-cloud"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-camera-retro"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-cloud"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-camera-retro"></i>
+        </div>
+      </div>
+      <div class="body">
+        <div class="icon-container">
+          <i class="fa-solid fa-cloud"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-camera-retro"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-cloud"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-camera-retro"></i>
+        </div>
+      </div>
+      <div class="body">
+        <div class="icon-container">
+          <i class="fa-solid fa-cloud"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-camera-retro"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-cloud"></i>
+        </div>
+        <div class="icon-container">
+          <i class="fa-solid fa-camera-retro"></i>
+        </div>
+      </div>
+      <div class="body"></div>
+      <div class="icon-container">
+        <i class="fa-solid fa-cloud"></i>
+      </div>
+      <div class="icon-container">
+        <i class="fa-solid fa-camera-retro"></i>
+      </div>
+      <div class="icon-container">
+        <i class="fa-solid fa-moon"></i>
+      </div>
+      <div class="icon-container">
+        <i class="fa-solid fa-cloud"></i>
+      </div>
+      <div class="icon-container">
+        <i class="fa-solid fa-camera-retro"></i>
+      </div>
+    </div>
+  </body>
+</html>

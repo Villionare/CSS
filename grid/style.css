@@ -1,0 +1,12 @@
+.grid {
+    border: 2px solid red;
+    display: inline-grid;
+    grid-template-rows: 50px 100px;
+}
+
+.g-child {
+    background-color: blueviolet;
+    margin: 1px;
+    height: 4rem;
+    width: 8rem;
+}
